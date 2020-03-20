@@ -1,0 +1,517 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/*header-section css start*/
+.header-section{
+	width: 100%;
+	height: 800px;
+	background: url(../images/object.png) center top no-repeat;
+	background-size: cover;
+	
+
+}
+
+.navbar{
+	background: transparent !important;
+}
+.navbar-brand img{
+	width: 105px;
+}
+.navbar-light .navbar-nav .active>.nav-link {
+	color: #744AEC;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+     
+
+}
+.navbar-light .navbar-nav .nav-link{
+     color: #767676;
+     font-family: 'Libre Franklin', sans-serif;
+      font-weight: 600;
+       font-size: 15px;
+
+} 
+
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #744AEC;
+    background:url(../images/layer.png) center bottom no-repeat;
+}
+
+.login a{
+	color: #000;
+     font-family: 'Libre Franklin', sans-serif;
+     font-size: 15px;
+      font-weight: 500;
+      text-decoration: none;
+      margin-right: 20px;
+}
+.login a:hover{
+	color: #fff;
+	background: linear-gradient(to right, #511DE5, #0E87FB);
+	padding: 10px 20px;
+	transition: 0.5s;
+	border-radius: 30px;
+}
+.login .btn{
+     
+     font-family: 'Libre Franklin', sans-serif;
+     font-size: 12px;
+      font-weight: 500;
+      background: linear-gradient(to right, #511DE5, #0E87FB);
+      color: #ffff;
+      border-radius: 30px;
+      padding: 10px 40px;
+      margin-right: 20px;
+    }  
+.login .btn:hover{
+	background:linear-gradient(to left, #511DE5, #0E87FB);
+	transition: 0.5s;
+}
+ /*header-section css end*/
+
+ /*banner-section css start*/
+
+ .banner-section{
+ 	width: 100%;
+ }
+ .banner-section .container .col-md-8 h1{
+ 	font-family: 'Libre Franklin', sans-serif;
+    text-align: right;
+    margin-top: 213px;
+    margin-right: 172px;
+    font-weight: 500;
+    font-size: 39px;
+ }
+.banner-section .container .col-md-8 h1 span{
+	color:#744AEC;
+} 
+.banner-section .container .col-md-8 .btn{
+	background: #f2f2f2;
+	color: #000;
+	letter-spacing: 3px;
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 10px;
+	border-radius: 30px;
+	padding: 10px 30px;
+	margin-top: 20px;
+
+
+}     
+.banner-section .container .col-md-8 .btn:hover{
+	background:linear-gradient(to right, #511DE5, #0E87FB);
+	color: #fff;
+	transition: 1s;
+}   
+ .banner-section .container .col-md-8 .btn i {
+ 	
+ }   
+
+ .col-md-4 img{
+ 	width: 100%;
+    padding: 10px;
+    margin-left: 72px;
+    margin-top: 327px;
+ }
+
+/*banner-section css end*/
+
+
+/*highlight-section css start*/
+.highlight-section{
+	width: 100%;
+    margin-top: -40px;
+    padding: 45px 0px;
+    background: url(../images/high.png) center top no-repeat;
+    background-size: cover;
+}
+
+.highlight-section .col-md-12 p{
+
+    font-family: 'Libre Franklin', sans-serif;
+    color: #fff;
+    font-weight: 600;
+	text-align: center;
+	margin-top: 50px;
+
+}
+/*highlight-section css end*/
+
+/*feature-section css start*/
+.feature-section{
+	width: 100%;
+	padding: 80px 0px;
+}
+.feature-section .container{
+	width: 800px;
+	height: 500px;
+	margin: 50px auto;
+	box-shadow: 2px 2px 10px rgb(8,8,8,0.5);
+		            
+}
+.feature-section .container .col-md-8 .box-inner{
+	margin-top: 30px;
+	margin-left: 20px;
+}
+.feature-section .container .col-md-8 .box-inner h1{
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.feature-section .container .col-md-8 .box-inner p{
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 12px;
+	margin-bottom: 30px;
+}
+.feature-section .container .col-md-8 .box-inner h3 span{
+	font-size: 60px;
+	font-weight: bold;
+	font-family: 'Libre Franklin', sans-serif;
+	background: linear-gradient(to right, #511DE5 80px, #0E87FB);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color:transparent;
+
+}
+.feature-section .container .col-md-8 .box-inner h3{
+	font-size: 10px;
+
+
+
+}
+.feature-section .container .col-md-4 img{
+	width: 320px;
+	height: 380px;
+	margin-top: 130px;
+	margin-left: -58px;
+}
+.feature-section .row .col-md-12 .client-logo{
+	text-align: center; 
+}
+.feature-section .row .col-md-12 .client-logo img{
+	width: 800px;
+	height: 100px;
+}
+
+/*feature-section css end*/
+
+/*Intro-section css start*/
+.intro-section{
+	width: 100%;
+	height: 700px;
+	margin-top: -30px;
+	background: url(../images/intro.png) center top no-repeat;
+	background-size: cover;
+	
+}
+.intro-section .container .col-md-5 p{
+   margin-top: 265px;
+   margin-left: 197px;
+   font-family: 'Libre Franklin', sans-serif;
+   font-size: 14px;
+   font-weight: 300;
+   color: #fff;
+ }
+ .intro-section .container .col-md-5 p span{
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 12px;
+	font-weight: 500;
+}
+
+.intro-section .container .col-md-7 h1{
+	 font-family: 'Libre Franklin', sans-serif;
+	margin-top: 220px;
+    margin-left: 30px;
+}
+.intro-section .container .col-md-7 .btn{
+	background: #fff;
+	font-size: 14px;
+	letter-spacing: 2px;
+	border-radius: 30px;
+    margin-top: 10px;
+    margin-left: 25px;
+    padding: 10px 20px;
+}
+
+.intro-section .container .col-md-7 .btn:hover{
+	background:linear-gradient(to right, #511DE5, #0E87FB);
+	color: #fff;
+	transition: 1s;
+}
+
+/*Intro-section css end*/
+
+
+/*Efficiency-section css start*/
+.efficiency-section{
+	width: 100%;
+	height: 500px;
+}
+.efficiency-inner{
+	margin-top: 35px;
+	margin-left: 173px;
+}
+.efficiency-section .container .col-md-7 .efficiency-inner h1{
+	 font-family: 'Libre Franklin', sans-serif;
+	 margin-bottom:20px;
+	}
+
+.efficiency-section .container .col-md-7 .efficiency-inner h3{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 14px;
+	font-weight:600;
+	margin-bottom: 15px;
+	
+}
+.efficiency-section .container .col-md-7 .efficiency-inner h3 img{
+	margin-right: 15px;
+}
+.efficiency-section .container .col-md-7 p{
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 12px;
+	margin-bottom: 20px;
+	font-weight: 500;
+}
+
+.efficiency-section .container .col-md-7 .efficiency-inner .btn{
+             padding: 10px 30px;
+             letter-spacing: 3px;
+             font-size: 12px;
+             background: linear-gradient(to right, #511DE5 80px, #0E87FB);
+             color: #fff;
+             border-radius: 30px;
+             margin-top: 30px;
+}
+.efficiency-section .container .col-md-7 .efficiency-inner .btn:hover{
+	background: linear-gradient(to left, #511DE5, #0E87FB);
+	transition: 0.5s;
+}
+.efficiency-section .container .col-md-5 img{
+	width: 400px;
+	height: 350px;
+	margin-left: -80px;
+} 
+/*Efficiency-section css end*/
+
+/*Design-section css start*/
+
+.design-section{
+	width: 100%;
+	height: 650px;
+	background: #fcfcfc;
+}
+.design-section .container .design-inner{
+	width: 80%;
+	display: inline-flex;
+	margin-left: 86px;
+}
+ .design-section .container .col-md-12{
+ 	text-align: center;
+ 	margin-top: 70px;
+ }
+ .design-section .container .col-md-12 h1{
+ 	font-family: 'Libre Franklin', sans-serif;
+ 	margin-bottom: 25px;
+ 	font-weight: bold;
+ }
+ .design-section .container .col-md-12 p{
+ 	font-family: 'Maven Pro', sans-serif;
+ 	font-size: 12px;
+ 	margin-bottom: 25px;
+ }
+ .design-section .container .col-md-4{
+ 	width: 100%;
+ 	text-align: center;
+ 	border-right: 10px solid #f9f9f9;
+ }
+ .design-section .container .col-md-4 img{
+ 	width: 120px;
+ 	height: 120px;
+ 	margin-top: 30px;
+ 	margin-left: 10px;
+ }
+ .design-section .container .col-md-4 h3{
+ 	font-family: 'Libre Franklin', sans-serif;
+ 	font-size: 20px;
+ 	margin-top: 10px;
+ }
+ .design-section .container .col-md-4 p{
+ 	font-family: 'Maven Pro', sans-serif;
+ 	font-size: 15px;
+ 	font-weight: 500;
+ 	margin-top: 10px;
+ }
+
+/*Design-section css end*/
+
+
+/*Card-section css start*/
+.card-section{
+	width: 100%;
+	height: 650px;
+
+}
+.card-section .container .col-md-12{
+ 	text-align: center;
+ 	}
+
+.card-section .container .col-md-12 h1{
+       font-family: 'Libre Franklin', sans-serif;
+    margin-top: 30px;
+    margin-right: 209px;
+    font-size: 50px;
+	
+}
+.card-section .container .col-md-12 p{
+	text-align: center;
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: bold;
+	margin-top: 60px;
+	
+}
+
+.card-section .container .row{
+	margin-left: 198px;
+}
+ .card-section .row .col-md-2{
+ 	width: 100%;
+ 	margin-top: 50px;
+ 	border: 3px solid #fcfcfc;
+ 	background: url(../images/Forma 1.png) center top no-repeat;
+ 	background-size: cover;
+ 	margin-right: 18px;
+ 	
+ }
+  
+
+ .card-section .container .col-md-2 img{
+ 	width: 130px;
+ 	height: 100px;
+ 	margin-left: 5px;
+ }
+ 
+
+ 
+ .card-section .container .col-md-2 p{
+ 	font-family: 'Libre Franklin', sans-serif;
+ 	font-weight: 600;
+ 	text-align: center;
+ 	margin-top: -45px;
+ 	font-size: 10px;
+
+ }
+
+ .card-section .container .col-md-2 .card-inner img{
+ 	width: 50px;
+ 	height: 50px;
+    margin-left: 35px;
+    margin-top: 10px;
+ }
+ .card-section .container .col-md-2 .card-inner h2{
+ 	font-family: 'Libre Franklin', sans-serif;
+ 	font-size: 10px;
+ 	font-weight: 600;
+ 	text-align: center;
+ 	margin-top: 16px;
+ }
+ .card-section .container .col-md-2 .card-inner h3{
+ 	font-family: 'Libre Franklin', sans-serif;
+ 	text-align: center;
+ 	font-size: 12px;
+ 	margin-bottom: 25px;
+ }
+ .card-section .container:hover .col-md-3{
+ 	transform: scale(1.05) translateZ(0);
+ }
+/*Card-section css end*/
+
+
+/*Footer-section css start*/
+
+ .footer-section{
+ 	width: 100%;
+ 	height: 750px;
+ 	background: url(../images/faq1.png)  center bottom no-repeat;
+ 	background-size:contain;
+ 	position: relative;
+ }
+ 
+
+.footer-section .container {
+	width: 750px;
+	height: 600px;
+	margin: 60px auto;
+	background: #fff;
+	border: 1px solid #fff;
+	box-shadow: 2px 2px 15px rgb(8,8,8,0.5);
+}
+.footer-section .container .inner{
+	margin-top: 90px;
+	margin-left: 30px;
+	margin-right: ;
+}
+ .footer-section .container h1{
+ 	font-family: 'Libre Franklin', sans-serif;
+ 	text-align: center;
+ 	margin-top: 50px;
+ 	font-weight: bold;
+
+ }
+.footer-section .container h3{
+	font-family: 'Libre Franklin', sans-serif;
+	line-height: 20px;
+	font-size: 14px;
+	font-weight: 600;
+}
+.footer-section .container h3 a{
+	text-decoration: none;
+	color: #000;
+}
+.footer-section .container h3 a:hover{
+	color:  #1414df;
+}
+.footer-section .container .inner p span{
+	font-family:'Libre Franklin', sans-serif; 
+	font-size: 14px;
+	font-weight: 600;
+	color: #1414df;
+}
+.footer-section .container .inner p{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 12px;
+	font-weight: 500;
+
+}
+.footer-section .row .col-md-5{
+	width: 100%;
+	text-align: right;
+}
+.footer-section .row .col-md-5 ul{
+  list-style: none;
+  margin-right: -20px;
+
+}
+.footer-section .row .col-md-5 ul li{
+	margin-right: 20px;
+	display: inline-block;
+}
+.footer-section .row .col-md-5 ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+.footer-section .row .col-md-5 ul li a:hover{
+	  background: linear-gradient(to left, #608BFF, #FB6191);
+	  transition: 0.5s;
+	  border-radius: 30px;
+	  padding: 5px 15px;
+
+}
+.footer-section .row .col-md-7 p{
+	text-align: center;
+	color: #fff;
+	margin-left: 30px;
+	margin-right: 225px;
+}
+
+/*Footer-section css end*/
